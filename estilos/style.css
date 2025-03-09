@@ -43,7 +43,7 @@ div#imagem > img {
 div#formulario > h1 {
     color: var(--cor4);
     font-size: 1.7em;
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.582);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.781);
     text-align: center;
     margin-top: 10px;
 }
@@ -55,14 +55,66 @@ div#formulario > p {
     text-align: center;
 }
 
-div > form {
+div#formulario > form {
     margin-top: 10px;
     padding: 0px 10px 0px 10px;
     text-align: center;
 }
 
-div > form > input {
-    border-radius: 10px;
+div#formulario > form > div.email-senha > input {
+    border-radius: 7px;
     padding: 10px;
     margin-bottom: 5px;
+    font-weight: bolder;
+    text-indent: 2.5em;
+}
+
+div#formulario > form > div.email-senha > span {
+    background-color: var(--cor1);
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: 1px 0px 1px black;
+    margin-top: 1px;
+    position: absolute;
+    left: 42px;
+}
+
+div#formulario > form > #botoes > a input {
+    background-color: var(--cor1);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    margin: 20px 0px;
+    padding: 8px 32px;
+    border-radius: 15px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+div#formulario > form > #botoes > a input:hover {
+    background-color: white;
+    color: var(--cor1);
+    text-shadow: 1px 1px 1px rgba(7, 7, 7, 0.658);
+    transition: 0.4s;
+}
+
+div#formulario > form > p {
+    margin: 16px;
+}
+
+div#formulario > form > p a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+}
+
+div#formulario > form > p a.cor {
+    color: rgb(88, 88, 88);
+}
+
+div#formulario > form > p a:hover {
+    text-decoration: underline;
+    color: darkred;
+    transition: .5s;
 }
