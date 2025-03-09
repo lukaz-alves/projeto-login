@@ -1,1 +1,68 @@
 @charset "UTF-8";
+
+:root {
+    --cor1: #3FA5BE;
+    --cor2: #70B7CD;
+    --cor3: #97CBD8;
+    --cor4: #9D9D9D;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-image: linear-gradient(45deg, var(--cor3), var(--cor2), var(--cor1));
+    position: relative;
+}
+
+main > section#login {
+    background-color: white;
+    width: 350px;
+    height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.637);
+}
+
+div#imagem > img {
+    width: 350px;
+    height: 300px;
+}
+
+div#formulario > h1 {
+    color: var(--cor4);
+    font-size: 1.7em;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.582);
+    text-align: center;
+    margin-top: 10px;
+}
+
+div#formulario > p {
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+div > form {
+    margin-top: 10px;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+}
+
+div > form > input {
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
