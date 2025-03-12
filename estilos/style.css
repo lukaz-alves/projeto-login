@@ -19,7 +19,7 @@ html, body {
 }
 
 body {
-    background-image: linear-gradient(45deg, var(--cor3), var(--cor2), var(--cor1));
+    background-color: var(--cor3);
     position: relative;
 }
 
