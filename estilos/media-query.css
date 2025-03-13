@@ -3,7 +3,6 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
         background-image: linear-gradient(45deg, var(--cor3), var(--cor2), var(--cor1));
-
     }
 
     main > section#login {
@@ -19,8 +18,8 @@
     }
 
     div#formulario {
-        position: absolute;
-        right: 12%;
+        position: relative;
+        left: 20%;
     }
 
     div#formulario > h1 {
@@ -30,5 +29,16 @@
     div#formulario > p {
         font-size: 0.8em;
     }
+
+    div#formulario form > div.email-senha > input {
+        padding: 10px 15%;
+        
+        
+    }
+
+
+
+
+
 
 }
